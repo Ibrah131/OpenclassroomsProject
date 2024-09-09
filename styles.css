@@ -1,0 +1,36 @@
+:root { /* default theme (light) */
+  --color-bg: #bbb197;
+  --primary-color-h1: #18365c;
+  --primary-color-font: #131f30;
+
+  --color-accent: #fd6f53;
+}
+
+.theme-dark {
+  --color-bg: #383838;
+  --primary-color-h1: #f0fcbe;
+  --primary-color-font: #e3fff3;
+
+  --color-accent: #12cdea;
+}
+
+
+.theme-twilight {
+  --color-bg: #7B68EE;
+  --primary-color-h1: #eea9ff;
+  --primary-color-font: #caa9ff;
+
+  --color-accent: #12cdea;
+}
+
+body {
+  color: var(--primary-color-font);
+  background: var(--color-bg);
+
+}
+
+h1{
+  color : var(--primary-color-h1);
+}
+
+
