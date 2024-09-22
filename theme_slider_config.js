@@ -1,6 +1,5 @@
 ///////// theme slider /////////
 
-
 // Config default theme
 const defaultTheme = ''; // Change this to 'dark', 'twilight', or '' for no theme
 ////////////////
